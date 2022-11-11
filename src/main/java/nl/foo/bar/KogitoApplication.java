@@ -18,7 +18,7 @@ package nl.foo.bar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages={"nl.foo.bar.**", "org.kie.kogito.**", "http**"})
+@SpringBootApplication(scanBasePackages={"nl.foo.bar.**", "org.kie.kogito.**", "http**", "xls2dmn**"})
 public class KogitoApplication {
 
     public static void main(String[] args) {
